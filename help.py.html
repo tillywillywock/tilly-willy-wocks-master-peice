@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>help.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #a9b7c6;}
+.s1 { color: #6a8759;}
+.s2 { color: #6897bb;}
+.s3 { color: #cc7832;}
+.ln { color: #606366; font-weight: normal; font-style: normal; }
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+help.py</font>
+</center></td></tr></table>
+<pre><a name="l1"><span class="ln">1    </span></a><span class="s0">sw = </span><span class="s1">&quot;monkey&quot;</span>
+<a name="l2"><span class="ln">2    </span></a><span class="s0">guess = </span><span class="s1">&quot;&quot;</span>
+<a name="l3"><span class="ln">3    </span></a><span class="s0">guess_count = </span><span class="s2">0</span>
+<a name="l4"><span class="ln">4    </span></a><span class="s0">guess_limit = </span><span class="s2">10</span>
+<a name="l5"><span class="ln">5    </span></a><span class="s0">out_of_guesses = </span><span class="s3">False</span>
+<a name="l6"><span class="ln">6    </span></a>
+<a name="l7"><span class="ln">7    </span></a><span class="s0">print(</span><span class="s1">&quot;guess an animal&quot;</span><span class="s0">)</span>
+<a name="l8"><span class="ln">8    </span></a>
+<a name="l9"><span class="ln">9    </span></a><span class="s3">while </span><span class="s0">guess != sw </span><span class="s3">and not </span><span class="s0">(out_of_guesses):</span>
+<a name="l10"><span class="ln">10   </span></a>   <span class="s3">if </span><span class="s0">guess_count &lt; guess_limit:</span>
+<a name="l11"><span class="ln">11   </span></a>     <span class="s0">guess = input(</span><span class="s1">&quot;enter guess: &quot;</span><span class="s0">)</span>
+<a name="l12"><span class="ln">12   </span></a>     <span class="s0">guess_count += </span><span class="s2">1</span>
+<a name="l13"><span class="ln">13   </span></a>   <span class="s3">else</span><span class="s0">:</span>
+<a name="l14"><span class="ln">14   </span></a>       <span class="s0">out_of_guesses = </span><span class="s3">True</span>
+<a name="l15"><span class="ln">15   </span></a>
+<a name="l16"><span class="ln">16   </span></a>       <span class="s3">if </span><span class="s0">out_of_guesses:</span>
+<a name="l17"><span class="ln">17   </span></a>           <span class="s0">print(</span><span class="s1">&quot;you ran out of guesses imagine&quot;</span><span class="s0">)</span>
+<a name="l18"><span class="ln">18   </span></a>       <span class="s3">else</span><span class="s0">:</span>
+<a name="l19"><span class="ln">19   </span></a>           <span class="s0">print(</span><span class="s1">&quot;congrats&quot;</span><span class="s0">)</span>
+<a name="l20"><span class="ln">20   </span></a>
+<a name="l21"><span class="ln">21   </span></a></pre>
+</body>
+</html>
